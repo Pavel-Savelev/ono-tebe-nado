@@ -55,13 +55,6 @@
   line-height: 24.3px;
 }
 
-.address p {
-  font-family: Raleway, Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-}
-
 .universal__background {
   position: absolute;
   background-color: #000;
@@ -85,6 +78,7 @@
   font-family: Raleway, Arial, sans-serif;
   font-size: 100px;
   font-weight: 700;
+  line-height: 100px
 }
 
 .cover__background {
@@ -117,7 +111,6 @@
 }
 
 .text-center {
-  line-height: 100px;
   margin-top: 20px;
   text-align: center;
 }
@@ -129,7 +122,6 @@
 
 .text-end {
   text-align: end;
-  line-height: 100px;
   margin-top: 20px;
   word-spacing: 0.3em;
 }
@@ -289,7 +281,6 @@
 .about__description-heading {
   text-transform: uppercase;
   margin-bottom: 100px;
-  align-items: start;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -313,30 +304,22 @@ footer {
   margin: 180px 50px 88px 50px;
 }
 
-.footer__style__link {
+.footer__menu-list {
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.footer__menu-link {
   font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
-}
-
-footer .address {
-  min-width: 237px;
-  line-height: 24.3px;
-  letter-spacing: 0.01em;
-  text-align: left;
-  margin: 0%;
-}
-
-footer .nav__links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-self: start;
-  margin: 0;
-  padding: 0;
   line-height: 21.13px;
-  list-style: none;
-  gap: 0;
+}
+
+.footer__address {
+  min-width: 237px;
+  margin: 0%;
 }
 
 .footer__social-list-link {
